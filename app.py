@@ -7,7 +7,7 @@ scaler = joblib.load('scaler.pkl')
 expected_columns = joblib.load('columns.pkl')
 
 
-st.title("Heart Stroke Prediction by Shresth ❤️")
+st.title("Heart Stroke Prediction by Shresth")
 st.markdown("This app predicts the likelihood of a heart stroke based on user input. Provide the following details ")
 age = st.slider('Age' , 18 , 100 , 40)
 sex = st.selectbox("SEX",['M', 'F'])
